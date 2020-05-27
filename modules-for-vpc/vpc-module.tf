@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "../."
+  source = "./"
 
 cidr            = "${var.cidr}"
 
